@@ -76,7 +76,7 @@ nav a {
   font-size: 41px;
   font-weight: 600;
 }
-.banner button {
+.button {
   background: linear-gradient(
     180deg,
     rgb(255, 88, 155) -0.006%,
@@ -93,6 +93,7 @@ nav a {
 .categories {
   max-width: 1128px;
   max-height: 200px;
+  margin-bottom: 50px;
 }
 .items {
   display: flex;
@@ -138,4 +139,118 @@ nav a {
     rgb(66, 137, 255) 15.416%,
     rgb(63, 7, 248) 74.29%
   );
+}
+/* Shoes & Backpack */
+.shoes-backpack {
+  background: rgb(244, 244, 244);
+  margin-top: 100px;
+  padding: 98px 156px 46px 156px;
+}
+.shoes-item {
+  max-width: 1128p;
+  max-height: 582px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.title h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255, 157, 0);
+  margin-right: 5px;
+}
+/* shoes & backpack items card */
+.items-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+  max-width: 1128px;
+  margin: 0px auto;
+}
+.item-card {
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  padding: 24px;
+  border-radius: 20px;
+  width: 360px;
+}
+.shoes-item img {
+  width: 330px;
+  height: 202px;
+}
+.backpack-item {
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+.backpack-item img {
+  width: 330px;
+  height: 280px;
+}
+.item-card h3,
+span {
+  font-size: 24px;
+  font-weight: 600;
+}
+.item-card p {
+  font-weight: 400;
+  color: rgb(78, 78, 78);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 14px 20px;
+}
+/* Footer */
+.footer {
+  max-width: 1212px;
+  height: 455px;
+  margin-top: 70px;
+  background: rgb(255, 242, 241);
+  border-radius: 20px;
+  padding: 146px 264px;
+  display: grid;
+  justify-content: center;
+}
+.email {
+  position: relative;
+}
+.footer h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: -20px;
+}
+.footer p {
+  font-weight: 500;
+  margin-bottom: -20px;
+  color: rgb(112, 112, 112);
+}
+.footer input {
+  padding: 14px 20px;
+  border: none;
+  width: 600px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: rgb(248, 247, 247);
+}
+.footer button {
+  position: absolute;
+  top: 12px;
+  right: 0px;
+  width: 100px;
+  border-radius: 5px;
 }
